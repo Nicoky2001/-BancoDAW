@@ -1,4 +1,4 @@
-
+﻿
 import java.util.Scanner;
 
 /*
@@ -104,6 +104,7 @@ public class Banco {
 
                 }
                 case OPCION_MOSTRAR_INFO_CUENTA -> {
+                    System.out.println(" ***************************** Informacion de cuentas ************************************************");
 
                     cuentas.mostrarCuentas();
 
